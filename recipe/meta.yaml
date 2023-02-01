@@ -41,7 +41,7 @@ requirements:
     - azure-identity ==1.6.1
     - azure-mgmt-containerservice ==16.2.0
     - importlib_metadata
-    - rich ==13.2.0
+    - rich ==12.6.0
     - requests-toolbelt <0.10.0,>=0.9.1
     - typer ==0.7.0
     - questionary
