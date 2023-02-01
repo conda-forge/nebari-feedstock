@@ -26,17 +26,6 @@ requirements:
   run:
     - __unix
     - python >=3.8,<4.0
-    - auth0-python ==4.0.0
-    - azure-identity ==1.6.1
-    - azure-mgmt-containerservice ==16.2.0
-    - boto3 ==1.26.54
-    - cloudflare ==2.11.1
-    - pydantic ==1.10.4
-    - python-keycloak ==2.9.0
-    - questionary ==1.10.0
-    - rich ==13.2.0
-    - ruamel.yaml ==0.17.21
-    - typer ==0.7.0
 
 test:
   imports:
