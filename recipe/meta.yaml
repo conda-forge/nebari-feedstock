@@ -23,6 +23,7 @@ requirements:
     - pip
     - setuptools-scm
     - hatchling
+    - hatch-vcs
   run:
     - __unix
     - python >=3.8,<4.0
