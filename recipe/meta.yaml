@@ -28,7 +28,23 @@ requirements:
     - __unix
     - python >=3.8,<4.0
     - hatchling
+    - auth0-python
+    - bcrypt
+    - boto3
+    - cloudflare
+    - gitignore-parser ==0.0.8
+    - pydantic
+    - pynacl
+    - python-keycloak
+    - python-kubernetes
+    - ruamel.yaml
+    - azure-identity ==1.6.1
+    - azure-mgmt-containerservice ==16.2.0
     - importlib_metadata
+    - rich
+    - requests-toolbelt <0.10.0,>=0.9.1
+    - typer
+    - questionary
 
 test:
   imports:
