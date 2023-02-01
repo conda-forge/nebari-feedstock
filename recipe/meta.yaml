@@ -29,8 +29,8 @@ requirements:
     - python >=3.8,<4.0
     - hatchling
     - auth0-python
-    - bcrypt
-    - boto3
+    - bcrypt ==4.0.1
+    - boto3 ==1.26.54
     - cloudflare
     - gitignore-parser ==0.0.8
     - pydantic
@@ -41,9 +41,9 @@ requirements:
     - azure-identity ==1.6.1
     - azure-mgmt-containerservice ==16.2.0
     - importlib_metadata
-    - rich
+    - rich ==13.2.0
     - requests-toolbelt <0.10.0,>=0.9.1
-    - typer
+    - typer ==0.7.0
     - questionary
 
 test:
