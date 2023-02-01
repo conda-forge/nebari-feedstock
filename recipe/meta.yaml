@@ -1,5 +1,5 @@
 {% set name = "nebari" %}
-{% set version = "2022.11.1" %}
+{% set version = "2023.1.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/nebari-{{ version }}.tar.gz
-  sha256: 0d1d5aab62ac8949da6836f700024a9386bf8154d6d9faf25c703991532a29e7
+  sha256: 0676656970c321757e44397eec052e950a590c1d7cbdc14fec653fed2707c077
 
 build:
   number: 0
