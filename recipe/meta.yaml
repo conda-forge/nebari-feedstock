@@ -26,6 +26,7 @@ requirements:
   run:
     - __unix
     - python >=3.8,<4.0
+    - importlib_metadata
 
 test:
   imports:
