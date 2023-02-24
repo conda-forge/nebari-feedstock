@@ -20,10 +20,9 @@ build:
 requirements:
   host:
     - python >=3.8,<4.0
-    - pip
-    - setuptools-scm
     - hatchling
     - hatch-vcs
+    - pip
   run:
     - __unix
     - python >=3.8,<4.0
