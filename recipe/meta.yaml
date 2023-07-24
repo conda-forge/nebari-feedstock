@@ -47,7 +47,6 @@ requirements:
 test:
   imports:
     - nebari
-    - nebari.cli
   commands:
     - pip check
     - nebari --help
