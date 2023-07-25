@@ -1,5 +1,5 @@
 {% set name = "nebari" %}
-{% set version = "2023.5.1" %}
+{% set version = "2023.7.1" %}
 
 
 package:
@@ -8,13 +8,13 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/nebari-{{ version }}.tar.gz
-  sha256: 0581d6ed2be4ba1d1e27e6dbea9546145665ab000c06ce7c8b18e1d72823b68e
+  sha256: 2a17741aa760ea1f9245e595401c1c66589c42f99074cb87ae560b01cddcb7d2
 
 build:
   number: 0
   noarch: python
   entry_points:
-    - nebari = nebari.cli.main:app
+    - nebari = _nebari.cli.main:app
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
@@ -47,7 +47,6 @@ requirements:
 test:
   imports:
     - nebari
-    - nebari.cli
   commands:
     - pip check
     - nebari --help
