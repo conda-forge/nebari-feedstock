@@ -11,7 +11,7 @@ source:
   sha256: e4721e894f2ef9cc30a88ce86d450a49b995969017032063ff16618e60b1545f
 
 build:
-  number: 0
+  number: 1
   noarch: python
   entry_points:
     - nebari = nebari.__main__:main
@@ -69,4 +69,3 @@ extra:
     - marcelovilla
     - dcmcand
     - viniciusdc
-    - iameskild
