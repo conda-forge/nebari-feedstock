@@ -146,6 +146,6 @@ Feedstock Maintainers
 =====================
 
 * [@dcmcand](https://github.com/dcmcand/)
-* [@iameskild](https://github.com/iameskild/)
+* [@marcelovilla](https://github.com/marcelovilla/)
 * [@viniciusdc](https://github.com/viniciusdc/)
 
