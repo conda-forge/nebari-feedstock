@@ -1,5 +1,6 @@
 {% set name = "nebari" %}
 {% set version = "2025.2.1" %}
+{% set python_min = "3.10" %}
 
 
 package:
@@ -11,7 +12,7 @@ source:
   sha256: 4f36d361bea3defb6d9e1649a5df0bd9eda9bc0144af20386068f3added8b6bd
 
 build:
-  number: 1
+  number: 2
   noarch: python
   entry_points:
     - nebari = nebari.__main__:main
