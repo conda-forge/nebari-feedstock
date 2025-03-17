@@ -1,5 +1,6 @@
 {% set name = "nebari" %}
 {% set version = "2025.2.1" %}
+{% set python_min = "3.10" %}
 
 
 package:
@@ -11,7 +12,7 @@ source:
   sha256: 4f36d361bea3defb6d9e1649a5df0bd9eda9bc0144af20386068f3added8b6bd
 
 build:
-  number: 0
+  number: 2
   noarch: python
   entry_points:
     - nebari = nebari.__main__:main
@@ -19,14 +20,14 @@ build:
 
 requirements:
   host:
-    - python >=3.8,<4.0
+    - python {{ python_min }}
     - pip
     - setuptools-scm
     - hatchling
     - hatch-vcs
   run:
     - __unix
-    - python >=3.8,<4.0
+    - python >={{ python_min }},<4.0
     - auth0-python ==4.7.1
     - azure-identity ==1.12.0
     - azure-mgmt-containerservice ==26.0.0
@@ -63,6 +64,7 @@ test:
     - if [[ $(nebari --version) != {{ version }} ]]; then exit 1; else exit 0; fi
   requires:
     - pip
+    - python {{ python_min }}
 
 about:
   home: https://github.com/nebari-dev/nebari
