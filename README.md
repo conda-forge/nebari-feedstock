@@ -149,6 +149,3 @@ Feedstock Maintainers
 * [@marcelovilla](https://github.com/marcelovilla/)
 * [@viniciusdc](https://github.com/viniciusdc/)
 
-
-<!-- dummy commit to enable rerendering -->
-
